@@ -1,0 +1,14 @@
+.BlackBox__container {
+  background: #151515;
+  padding: 40px;
+}
+
+.BlackBox__title {
+  color: #fff;
+  font-size: 60px;
+}
+
+.BlackBox__paragraph {
+  color: #fff;
+  font-size: 18px;
+}

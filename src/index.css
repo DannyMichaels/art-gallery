@@ -37,3 +37,13 @@ code {
   font-family: 'Outfit', cursive;
   font-weight: 300;
 }
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.App__body {
+  flex-grow: 1;
+}
