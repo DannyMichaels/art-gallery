@@ -1,0 +1,32 @@
+.Button__container {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  width: 100%;
+  height: 100%;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  cursor: pointer;
+  user-select: none;
+}
+
+.Button__children {
+  background: #151515;
+  color: #fff !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 204px;
+  font-size: 24px;
+  text-transform: uppercase;
+  padding: 20px;
+  font-family: 'Big Shoulders Display', sans-serif;
+}
+
+.Button__arrow {
+  background: #d5966c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 56px;
+}

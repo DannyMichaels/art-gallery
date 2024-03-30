@@ -3,18 +3,8 @@
   display: flex;
   position: relative;
   flex-direction: column;
-  height: 98vh;
+  min-height: 80vh;
 }
-
-/* .Hero__background {
-  background: #151515;
-  width: 33%;
-  height: 800px;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 2;
-} */
 
 .Hero__title {
   font-size: 96px;
@@ -24,9 +14,10 @@
 .Hero__content {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-start;
   background: white;
+  gap: 2rem;
 }
 
 .Hero__image {
@@ -37,8 +28,27 @@
   max-width: 100%;
 }
 
+.mobile {
+  display: none;
+}
+
+.Hero__text-container.mobile {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.Hero__title.mobile {
+  font-size: 60px;
+}
+
 @media screen and (max-width: 768px) {
-  .Hero__container {
+  /* .Hero__container {
     background: unset;
+  } */
+
+  .mobile {
+    display: flex;
   }
 }

@@ -1,26 +1,30 @@
 import React from 'react';
 import './Hero.css';
-import HeroImage from '../../assets/desktop/image-hero@2x.jpg';
+import HeroImageDesktop from '../../assets/desktop/image-hero@2x.jpg';
+import HeroImageMobile from '../../assets/mobile/image-hero.jpg';
+import { Button } from '../Button';
 
 export default function Hero() {
   return (
-    <div className="Hero__container">
-      <div className="Hero__background"></div>
-      <img className="Hero__image" src={HeroImage} alt="Hero" />
-      <div className="Hero__content inner-column">
-        <div className="Hero__text-container">
-          <h1 className="heading Hero__title">
+    <div className="Hero__container mobile">
+      <div className="Hero__background mobile"></div>
+      <img className="Hero__image mobile" src={HeroImageMobile} alt="Hero" />
+      <div className="Hero__content mobile inner-column">
+        <div className="Hero__text-container mobile">
+          <h1 className="heading Hero__title mobile">
             Modern <br />
             Art Gallery
           </h1>
 
-          <p className="body-text Hero__paragraph">
-            We provide unmatched quality, comfort, and style for property owners
-            across the country. Our experts combine form and function in
-            bringing your vision to life. Create a room in your own style with
-            our collection and make your property a reflection of you and what
-            you love.
+          <p className="body-text Hero__paragraph mobile">
+            The arts in the collection of the Modern Art Gallery all started
+            from a spark of inspiration. Will these pieces inspire you? Visit us
+            and find out.
           </p>
+        </div>
+
+        <div className="Hero__button-container mobile">
+          <Button>Our Location</Button>
         </div>
       </div>
     </div>
