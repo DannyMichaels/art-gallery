@@ -2,6 +2,7 @@ import { ImageAndText } from './components/ImageAndText';
 import { Footer } from './components/Footer';
 import { BlackBox } from './components/BlackBox';
 import { OneByTwoGrid } from './components/OneByTwoGrid';
+import { Hero } from './components/Hero';
 import GalleryImage1 from './assets/desktop/image-grid-1@2x.jpg';
 import GalleryImage2 from './assets/desktop/image-grid-2@2x.jpg';
 import GalleryImage3 from './assets/desktop/image-grid-1@2x.jpg';
@@ -10,7 +11,8 @@ function App() {
   return (
     <div className="App">
       <main className="App__body">
-        <div style={{ height: '150px', width: '100%' }}>something here</div>
+        <Hero />
+
         <section className="page-section inner-column">
           <ImageAndText
             image={GalleryImage1}

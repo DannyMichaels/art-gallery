@@ -30,6 +30,9 @@ code {
 .heading {
   color: #151515;
   font-family: 'Big Shoulders Display', cursive;
+  text-transform: uppercase;
+  font-size: 70px;
+  line-spacing: 88px;
 }
 
 .body-text {

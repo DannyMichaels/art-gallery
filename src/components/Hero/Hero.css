@@ -1,0 +1,44 @@
+.Hero__container {
+  /* height: 89vh; */
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  height: 98vh;
+}
+
+/* .Hero__background {
+  background: #151515;
+  width: 33%;
+  height: 800px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+} */
+
+.Hero__title {
+  font-size: 96px;
+  font-weight: 700;
+}
+
+.Hero__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: white;
+}
+
+.Hero__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  max-height: 800px;
+  max-width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .Hero__container {
+    background: unset;
+  }
+}
