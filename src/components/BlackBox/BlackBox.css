@@ -1,11 +1,14 @@
 .BlackBox__container {
   background: #151515;
   padding: 40px;
+  display: flex;
+  flex-direction: column;
 }
 
 .BlackBox__title {
   color: #fff;
   font-size: 60px;
+  text-transform: uppercase;
 }
 
 .BlackBox__paragraph {

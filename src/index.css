@@ -47,3 +47,7 @@ code {
 .App__body {
   flex-grow: 1;
 }
+
+.page-section {
+  margin-bottom: 20px;
+}
