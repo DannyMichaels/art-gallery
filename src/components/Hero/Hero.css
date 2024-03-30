@@ -31,9 +31,11 @@
   left: 10%;
 
   /*  color half white half black */
-  background: linear-gradient(90deg, #fff 80%, #151515 50%);
+  /* background: linear-gradient(90deg, #fff 80%, #151515 50%);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent; */
+  color: #fff;
+  mix-blend-mode: difference;
 }
 
 .Hero__content {
