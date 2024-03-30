@@ -21,6 +21,7 @@
   text-transform: uppercase;
   padding: 20px;
   font-family: 'Big Shoulders Display', sans-serif;
+  transition: text-shadow 0.3s;
 }
 
 .Button__arrow {
@@ -29,4 +30,31 @@
   justify-content: center;
   align-items: center;
   min-width: 56px;
+}
+
+.Button__arrow-icon {
+  transition: transform 0.3s;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(8px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.Button__container:hover .Button__children {
+  text-shadow: 0 0 10px #d5966c;
+}
+
+.Button__container:hover .Button__arrow-icon {
+  /* transform: translateX(10px); */
+  animation: slide 600ms;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
 }

@@ -12,7 +12,11 @@ export default function Button({
       <div className="Button__children">{children}</div>
 
       <div className="Button__arrow">
-        <img src={ArrowRightIcon} alt="Arrow Right Icon" />
+        <img
+          src={ArrowRightIcon}
+          alt="Arrow Right Icon"
+          className="Button__arrow-icon"
+        />
       </div>
     </div>
   );
